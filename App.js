@@ -1,8 +1,6 @@
 import { View } from 'react-native';
-import Header from './src/components/header';
-import Stories from "./src/components/Stories";
-
-
+import Cellbit from "./src/assets/Cellbit.jpg";
+import InfoProfile from './src/components/InfoProfile';
 
 export default function App() {
   return (
@@ -13,8 +11,11 @@ export default function App() {
         marginHorizontal: 16,
       }}
     >
-      <Header />
-      <Stories />
+      <InfoProfile
+        image={Cellbit}
+        publi={250}
+        followers={1500}
+        following={68} />
     </View>
-  )
-};
+  );
+}
