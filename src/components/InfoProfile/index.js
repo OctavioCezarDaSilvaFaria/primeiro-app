@@ -45,8 +45,8 @@ const styles = StyleSheet.create({
         fontWeight: "700",
     },
     Perfil: {
-        width: 90,
-        height: 90,
+        width: 100,
+        height: 100,
         borderRadius: 50,
     }
 }
